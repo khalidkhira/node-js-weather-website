@@ -31,7 +31,9 @@ const foreCast = (lat, long, callback) => {
           currentTemp +
           " degrees out. It feels like " +
           feelslikeTemp +
-          " degrees out."
+          " degrees out. And the humidity is" +
+          body.current.humidity +
+          "% ."
       );
     }
   });
